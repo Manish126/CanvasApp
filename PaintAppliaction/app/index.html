@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Application</title>
+</head>
+<body ng-app="app">
+<div ng-controller="StageController">
+    Tool:
+    <select id="tool">
+        <option value="brush">Brush</option>
+        <option value="eraser">Eraser</option>
+    </select>
+
+    <div id="container"></div>
+</div>
+
+
+<!-- ************************ All Scripts files ************************* -->
+
+<script src="https://cdn.rawgit.com/konvajs/konva/0.13.0/konva.min.js" defer></script>
+<script type="text/javascript" src="Vendor/angular/angular.min.js"></script>
+<script type="text/javascript" src="Controllers/StageController.js"></script>
+<script type="text/javascript" src="StageService.js"></script>
+</body>
+</html>
